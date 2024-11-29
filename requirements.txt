@@ -1,0 +1,17 @@
+numpy==1.25
+huggingface-hub==0.23.0
+pandas
+fsspec==2023.12.1
+nltk==3.9
+pillow==9.0
+networkx==3.0
+torch==2.4
+transformers[torch]==4.37.0
+transformers
+scipy
+pypdf==4.3
+joblib==1.4.2
+filelock
+IPython
+packaging==23.2
+pydantic==2.9 
