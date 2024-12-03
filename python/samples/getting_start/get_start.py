@@ -72,10 +72,6 @@ elif selectedService == Service.AzureOpenAI:
     kernel.add_service(
         AzureChatCompletion(
             service_id=service_id,
-            # api_key=AZURE_OPENAI_API_KEY,
-            # endpoint=AZURE_OPENAI_ENDPOINT,
-            # deployment_name=AZURE_OPENAI_CHAT_DEPLOYMENT_NAME,
-            # api_version=AZURE_OPRNAI_API_VERSION,
             env_file_path=".env",
             env_file_encoding=service_settings.env_file_encoding,
         ),
